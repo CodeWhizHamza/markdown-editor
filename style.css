@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+}
+.container > * {
+	flex-basis: 100%;
+}
+.textarea {
+	resize: none;
+	min-height: 100vh;
+	overflow: auto;
+	border: none;
+	outline: none;
+	border-radius: 0;
+	border-right: 2px solid #333;
+	font-size: 1.25rem;
+	padding: 1em;
+	background-color: #002b36;
+	color: #93a1a1;
+	font-family: 'PT Mono', monospace;
+}
+.markdown {
+	padding: 1rem;
+	font-family: 'Open Sans', sans-serif;
+}
+.markdown h1 {
+	color: dodgerblue;
+}
